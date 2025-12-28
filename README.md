@@ -4,6 +4,17 @@ The entry point for your SQLite implementation is in `src/main/java/Main.java`.
 2. Run `./your_program.sh` to run your program, which is implemented in
    `src/main/java/Main.java`.
 
+# Functionality Supported
+
+1. Basic Functionality on ".dbinfo" and ".tables"
+2. Read data from a single column
+3. Read data from multiple columns
+4. Filter data with a WHERE clause (Single Page)
+5. Retrieve data using a full-table scan ( Multi-Page)
+6. Retrieve data using an index 
+   ( Use Index if exists by Default, with Full Table Scan as Fallback)
+
+
 # Sample Databases
 
 To make it easy to test queries locally, we've added a sample database in the
