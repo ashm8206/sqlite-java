@@ -1,0 +1,8 @@
+# Database files used for testing
+superheroes.db
+companies.db
+test.db
+
+*.jar
+target/
+.idea/
