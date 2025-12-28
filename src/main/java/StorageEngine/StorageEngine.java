@@ -7,9 +7,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.*;
 
 /**
- * Ultra-optimized Storage Engine using FileChannel (like reference
- * implementation)
- * Key optimizations based on their approach:
+ * Key optimizations on File approach in Archive Code:
  * 1. FileChannel + ByteBuffer (10x faster than RandomAccessFile)
  * 2. Direct string comparison (no toLowerCase overhead)
  * 3. Simplified recursive traversal
